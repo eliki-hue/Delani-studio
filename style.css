@@ -1,9 +1,32 @@
-
+/* .container {
+    background-image: url("assets/backgrounds/s_image.jpeg");
+} */
 #welcomeimg {
-
-    color: red
+    background-image: url(assets/backgrounds/h_img.jpg);
+    color:white;
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
 }
-#background1 {
-    height: 450px;
-    width: 100%;
+
+#about {
+       text-align: center; 
+}
+
+#services {
+    background-image:url("assets/backgrounds/s_image.jpeg");
+    color: white;
+    text-align: center;
+}
+#contact {
+    background-image: url(assets/backgrounds/c_image.jpg);
+    text-align: center;
+}
+#social {
+    text-align: center;
+}
+#portfolio {
+    text-align: center;
+    align-items: center;
 }
