@@ -1,6 +1,17 @@
-/* .container {
-    background-image: url("assets/backgrounds/s_image.jpeg");
-} */
+.body {
+    text-align: center;
+    
+;
+}
+.portfolio {
+    text-align: center;
+    
+}
+/* .portimg {
+    width: 70%;
+    margin: 20px; */
+/* } */
+
 #welcomeimg {
     background-image: url(assets/backgrounds/h_img.jpg);
     color:white;
@@ -30,10 +41,10 @@
 #social {
     text-align: center;
 }
-#portfolio {
+/* #portfolio {
     text-align: center;
     align-items: center;
-}
+} */
 
 #email {
     background-color:rgba(0, 0, 0, 0);
@@ -76,4 +87,10 @@ form#contact::-ms-input-placeholder{
 #what3 {
     text-align: center;
 }
+.projectnum {
+    margin: 50px;
+    
+    
+   
 
+}
