@@ -42,7 +42,10 @@ $(document).ready(function(){
         $('#whatWeDo3').show()
         
     })
-    
+    $('#num1').click(function(){
+        $('#project1').show()
         
+    })
+    
    
 })
