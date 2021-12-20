@@ -30,3 +30,26 @@
     text-align: center;
     align-items: center;
 }
+
+#email {
+    background-color:rgba(0, 0, 0, 0);
+    border-style:solid;
+    border-color: white;
+    color: white;
+    
+}
+#name{
+    background-color:rgba(0, 0, 0, 0);
+    border-style:solid;
+    border-color: white;
+    color: white;
+}
+#message {
+    background-color:rgba(0, 0, 0, 0);
+    border-style:solid;
+    border-color: white;
+    color: white;
+    
+}
+
+
