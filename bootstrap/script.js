@@ -8,16 +8,41 @@ document.getElementById("form").addEventListener("submit", validateInputHere)
             }
 
 $(document).ready(function(){
-    $('p').click(function(){
-        alert("this is a paragraph")
-    });
-    $('#whatWeDo11').click(function(){
-        alert("you touched me")
+   
+  
+    $('#whatWeDo1').click(function(){
+        $(this).hide()
+        $('#hidden1').show()
+        
     })
-    $('#whatWeDo12').click(function(){
-        alert("you touched me")
+    $('#whatWeDo2').click(function(){
+        $(this).hide()
+        $('#hidden2').show()
+        
     })
-    $('#whatWeDo13').click(function(){
-        alert("you touched me")
+    $('#whatWeDo3').click(function(){
+        $(this).hide()
+        $('#hidden3').show()
+        
     })
+
+
+    $('#hidden1').click(function(){
+        $(this).hide()
+        $('#whatWeDo1').show()
+        
+    })
+    $('#hidden2').click(function(){
+        $(this).hide()
+        $('#whatWeDo2').show()
+        
+    })
+    $('#hidden3').click(function(){
+        $(this).hide()
+        $('#whatWeDo3').show()
+        
+    })
+    
+        
+   
 })
