@@ -89,17 +89,18 @@
         <div class="row">
             <div class="col-sm-12" id="contact"><br>
                 <h3>Contact us</h3><br>
-                <form action="" method="get">
-                   
-                    <input type="text" id="name" name="name" placeholder="Name">
-                   
-                    <input type="text" id="email" name="email" placeholder="Email" ><br>
-                   <br>
-                    <textarea rows = "8" cols = "50" name = "message" id="message">Your message here ...
-                     </textarea><br>
-                     <input type="submit" class="btn btn-primary btn-lg float-left" id="submitbtn">
+                <form action="" method="get" id="form">
+                    <div class="username">
+                       
+                        <input type="text" name="username" id="username" placeholder="Name..." required><br><br>
+                        <input type="text" name="useremail" id="useremail" placeholder="Email..."  required><br><br>
+                
+                    <input type="submit" id="submit" value="submit form" />
                 
                 <br><br><br>
+                </form>
+                <textarea rows="4" cols="50" name="message" form="form" id="message">
+                    Enter text here...</textarea><br>
             </div>
         </div>
         <div class="row">
@@ -122,7 +123,7 @@
 
     </div>
     <script src="jquery-3.6.0.js"></script>
-    <script src="script.js"></script>
+    <script src="bootstrap/script.js"></script>
    
 </body>
 </html>
