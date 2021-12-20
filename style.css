@@ -63,4 +63,8 @@ form#contact::-ms-input-placeholder{
     color: white;
     
 }
+.hidden {
+    text-align: center;
+    display: none;
+}
 
