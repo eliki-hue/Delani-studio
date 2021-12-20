@@ -18,10 +18,14 @@
     background-image:url("assets/backgrounds/s_image.jpeg");
     color: white;
     text-align: center;
+    
+    
 }
 #contact {
     background-image: url(assets/backgrounds/c_image.jpg);
     text-align: center;
+    background-size: cover;
+    
 }
 #social {
     text-align: center;
@@ -40,10 +44,18 @@
 }
 #name{
     background-color:rgba(0, 0, 0, 0);
-    border-style:solid;
+    border-style:groove;
     border-color: white;
     color: white;
 }
+foam#contact::-webkit-input-placeholder{
+    color: white;
+}
+form#contact::-ms-input-placeholder{
+    color: white;
+}
+
+
 #message {
     background-color:rgba(0, 0, 0, 0);
     border-style:solid;
@@ -51,5 +63,7 @@
     color: white;
     
 }
-
+#submitbtn {
+   
+}
 
