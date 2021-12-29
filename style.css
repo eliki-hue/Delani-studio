@@ -1,13 +1,10 @@
 .body {
     text-align: center;
     
-;
+
 }
-.portfolio {
-    text-align: center;
-    display: block;
-    
-}
+
+
 .portimg {
     width: 70%;
     margin: 20px;
@@ -43,10 +40,7 @@
 #social {
     text-align: center;
 }
-/* #portfolio {
-    text-align: center;
-    align-items: center;
-} */
+
 
 #useremail {
     background-color:rgba(0, 0, 0, 0);
@@ -75,6 +69,27 @@ form#contact::-ms-input-placeholder{
     color: white;
 }
 
+.test {
+    display: flex;
+    justify-content: center;
+ 
+   
+}
+.container2 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.container3 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-left: 10px;
+}
+ .card {
+     margin: 10px;
+     padding:100px;
+ }
 
 #message {
     background-color:rgba(0, 0, 0, 0);
@@ -96,11 +111,66 @@ form#contact::-ms-input-placeholder{
 #what3 {
     text-align: center;
 }
-.projectnum {
+/* .projectnum {
     text-align: center;
     display: none;
     
     
    
 
+} */
+.closing::before {
+    content: '';
+    background: rgb(170, 35, 35);
+    display: block;
+    color: white;
+    
+}
+.closing:hover::after {
+    content: '';
+    background: rgb(170, 35, 35);
+    display: block;
+   
+    color: white;
+}
+.closing:hover::before{
+    content: "hey i am here";
+    scale: 1;
+    
+}
+#project1 {
+    background-image: url("assets/portfolio/work4.jpg");
+    background-size: cover;
+   
+}
+#project2 {
+    background-image: url("assets/portfolio/work3.jpg");
+    background-size: cover;
+}
+#project3 {
+    background-image: url("assets/portfolio/work2.jpg");
+    background-size: cover;
+}
+#project4 {
+    background-image: url("assets/portfolio/work1.jpg");
+    background-size: cover;
+}
+#project5 {
+    background-image: url("assets/portfolio/work5.jpg");
+    background-size: cover;
+}
+#project6 {
+    background-image: url("assets/portfolio/work6.jpg");
+    background-size: cover;
+}
+#project7 {
+    background-image: url("assets/portfolio/work7.jpg");
+    background-size: cover;
+}
+#project8 {
+    background-image: url("assets/portfolio/work8.jpg");
+    background-size: cover;
+}
+#portfolio h3{
+    text-align: center;
 }
