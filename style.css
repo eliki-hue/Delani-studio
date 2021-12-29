@@ -3,14 +3,6 @@
     
 
 }
-
-
-.portimg {
-    width: 70%;
-    margin: 20px;
-    display: block;
- }
-
 #welcomeimg {
     background-image: url(assets/backgrounds/h_img.jpg);
     color:white;
@@ -69,11 +61,19 @@ form#contact::-ms-input-placeholder{
     color: white;
 }
 
-.test {
+.whatWeDo{
     display: flex;
-    justify-content: center;
- 
+    justify-content:space-around;
+    
+}
+#whatWeDoTitle{
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+}
+.icon {
    
+    text-align: center;
 }
 .container2 {
     display: flex;
@@ -88,7 +88,9 @@ form#contact::-ms-input-placeholder{
 }
  .card {
      margin: 10px;
-     padding:100px;
+     width: 230px;
+     height: 200px;
+    
  }
 
 #message {
@@ -111,14 +113,6 @@ form#contact::-ms-input-placeholder{
 #what3 {
     text-align: center;
 }
-/* .projectnum {
-    text-align: center;
-    display: none;
-    
-    
-   
-
-} */
 .closing::before {
     content: '';
     background: rgb(170, 35, 35);
@@ -141,19 +135,24 @@ form#contact::-ms-input-placeholder{
 #project1 {
     background-image: url("assets/portfolio/work4.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
    
 }
 #project2 {
     background-image: url("assets/portfolio/work3.jpg");
-    background-size: cover;
+    background-size:cover;
+    
+    background-repeat: no-repeat;
 }
 #project3 {
     background-image: url("assets/portfolio/work2.jpg");
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 #project4 {
     background-image: url("assets/portfolio/work1.jpg");
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 #project5 {
     background-image: url("assets/portfolio/work5.jpg");
