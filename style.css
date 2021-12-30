@@ -173,3 +173,16 @@ form#contact::-ms-input-placeholder{
 #portfolio h3{
     text-align: center;
 }
+.card p{
+    color: white;
+    text-align: center;
+    border: solid white;
+    display: flex;
+    padding: 50px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+
+}
