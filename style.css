@@ -64,6 +64,7 @@ form#contact::-ms-input-placeholder{
 .whatWeDo{
     display: flex;
     justify-content:space-around;
+    flex-wrap: wrap;
     
 }
 #whatWeDoTitle{
@@ -72,25 +73,32 @@ form#contact::-ms-input-placeholder{
     margin-top: 50px;
 }
 .icon {
-   
+    display: flex;
     text-align: center;
+    margin-left: 90px;
+    margin-bottom: 30px;
+   
 }
 .container2 {
     display: flex;
     position: relative;
     justify-content: center;
+    flex-wrap: wrap;
+
 }
+
 .container3 {
     display: flex;
     position: relative;
     justify-content: center;
-    margin-left: 10px;
+    flex-wrap: wrap;
+    
 }
  .card {
      margin: 10px;
-     width: 230px;
-     height: 200px;
-    
+     align-content: center;
+     
+     
  }
 
 #message {
@@ -146,13 +154,13 @@ form#contact::-ms-input-placeholder{
 }
 #project3 {
     background-image: url("assets/portfolio/work2.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 #project4 {
     background-image: url("assets/portfolio/work1.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 #project5 {
     background-image: url("assets/portfolio/work5.jpg");
@@ -169,20 +177,30 @@ form#contact::-ms-input-placeholder{
 #project8 {
     background-image: url("assets/portfolio/work8.jpg");
     background-size: cover;
+    
 }
 #portfolio h3{
     text-align: center;
 }
-.card p{
+.port{
     color: white;
-    text-align: center;
-    border: solid white;
-    display: flex;
-    padding: 50px;
-    text-align: center;
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
+    text-align:left;
+    /* border:  white; */
+    /* display: flex; */
+    padding:80px;
+   
+   
+    align-content: center;
 
+}
+.port p {
+    /* display: none; */
+    /* position:; */
+    /* border: 5px solid white ; */
+    
+    
+    
+    
+    
+    
 }
