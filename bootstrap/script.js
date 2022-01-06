@@ -1,6 +1,6 @@
 $(document).ready(function(){
    
-    var elementNumbers = ["1", "2", "3"]
+    var elementNumbers = ["1", "2", "3","4", "5", "6", "7", "8"]
   
       elementNumbers.forEach(function(element) {
           $("#whatWeDo"+ element).click(function() {
@@ -13,13 +13,33 @@ $(document).ready(function(){
               $(this).hide()
               $('#whatWeDo' + element).show()
         
-    });
-    
-  
-  
-  })
+            });
+      })
 
-document.getElementById("form").addEventListener("submit", validateInputHere)
+      elementNumbers.forEach(function(element) {
+        $("#project"+ element).click(function() {
+            
+            $('#projectName' + element ).show()
+            
+        })
+
+        $('#hidden' + element).click(function(){
+            $(this).hide()
+            $('#whatWeDo' + element).show()
+      
+          });
+    })
+
+      
+
+
+  
+  
+  
+
+  
+
+ document.getElementById("form").addEventListener("submit", validateInputHere)
     function validateInputHere (){
             
         var username= document.getElementById('username').value;

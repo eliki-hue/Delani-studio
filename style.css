@@ -84,18 +84,26 @@ form#contact::-ms-input-placeholder{
     position: relative;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 0px;
 
 }
-
 .container3 {
     display: flex;
     position: relative;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 10000px;
     
+    
+
 }
+
+ 
+    
+
  .card {
-     margin: 10px;
+     
+     /* margin: 10px; */
      align-content: center;
      
      
@@ -120,25 +128,6 @@ form#contact::-ms-input-placeholder{
 }
 #what3 {
     text-align: center;
-}
-.closing::before {
-    content: '';
-    background: rgb(170, 35, 35);
-    display: block;
-    color: white;
-    
-}
-.closing:hover::after {
-    content: '';
-    background: rgb(170, 35, 35);
-    display: block;
-   
-    color: white;
-}
-.closing:hover::before{
-    content: "hey i am here";
-    scale: 1;
-    
 }
 #project1 {
     background-image: url("assets/portfolio/work4.jpg");
@@ -183,24 +172,49 @@ form#contact::-ms-input-placeholder{
     text-align: center;
 }
 .port{
+    /* display: none; */
     color: white;
     text-align:left;
     /* border:  white; */
     /* display: flex; */
     padding:80px;
-   
+    
    
     align-content: center;
 
 }
 .port p {
-    /* display: none; */
-    /* position:; */
-    /* border: 5px solid white ; */
+   
+    
+    position: relative;
     
     
+    border: 5px solid white  ;
     
-    
-    
+     
+}
+.content {
+display: flex;
+position: relative;
+width: 200px;
+height: 200px;
+margin: 50px;
+margin-left: 10px;
+text-align: center;
+
+
+
+}
+.content div{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: 5px solid white;
+    padding: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 10px;
+    color: white;
     
 }
