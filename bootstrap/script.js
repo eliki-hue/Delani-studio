@@ -4,7 +4,7 @@ $(document).ready(function(){
   
       elementNumbers.forEach(function(element) {
           $("#whatWeDo"+ element).click(function() {
-              $(this)
+              $(this).hide()
               $('#hidden' + element ).show()
               
           })

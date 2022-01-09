@@ -73,11 +73,20 @@ form#contact::-ms-input-placeholder{
     margin-top: 50px;
 }
 .icon {
-    display: flex;
+    display:flex;
     text-align: center;
-    margin-left: 90px;
+    margin-left: 20px;
     margin-bottom: 30px;
    
+}
+#icon1 {
+    margin-left: px;
+}
+#whatAboutRow {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin-left: 120px;
 }
 .container2 {
     display: flex;
