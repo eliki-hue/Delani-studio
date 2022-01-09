@@ -92,22 +92,14 @@ form#contact::-ms-input-placeholder{
     position: relative;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 10000px;
-    
+    margin-left: 10px;
     
 
 }
+#container3 {
+    align-content: center;
+}
 
- 
-    
-
- .card {
-     
-     /* margin: 10px; */
-     align-content: center;
-     
-     
- }
 
 #message {
     background-color:rgba(0, 0, 0, 0);
@@ -120,78 +112,8 @@ form#contact::-ms-input-placeholder{
     text-align: center;
     display: none;
 }
-#what1 {
+#what1, #what2, #what3 {
     text-align: center;
-}
-#what2 {
-    text-align: center;
-}
-#what3 {
-    text-align: center;
-}
-#project1 {
-    background-image: url("assets/portfolio/work4.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-   
-}
-#project2 {
-    background-image: url("assets/portfolio/work3.jpg");
-    background-size:cover;
-    
-    background-repeat: no-repeat;
-}
-#project3 {
-    background-image: url("assets/portfolio/work2.jpg");
-    background-size: cover;
-    
-}
-#project4 {
-    background-image: url("assets/portfolio/work1.jpg");
-    background-size: cover;
-    
-}
-#project5 {
-    background-image: url("assets/portfolio/work5.jpg");
-    background-size: cover;
-}
-#project6 {
-    background-image: url("assets/portfolio/work6.jpg");
-    background-size: cover;
-}
-#project7 {
-    background-image: url("assets/portfolio/work7.jpg");
-    background-size: cover;
-}
-#project8 {
-    background-image: url("assets/portfolio/work8.jpg");
-    background-size: cover;
-    
-}
-#portfolio h3{
-    text-align: center;
-}
-.port{
-    /* display: none; */
-    color: white;
-    text-align:left;
-    /* border:  white; */
-    /* display: flex; */
-    padding:80px;
-    
-   
-    align-content: center;
-
-}
-.port p {
-   
-    
-    position: relative;
-    
-    
-    border: 5px solid white  ;
-    
-     
 }
 .content {
 display: flex;
@@ -201,6 +123,8 @@ height: 200px;
 margin: 50px;
 margin-left: 10px;
 text-align: center;
+background-color: black;
+background-size:cover
 
 
 
@@ -216,5 +140,6 @@ text-align: center;
     margin-left: 30px;
     margin-right: 10px;
     color: white;
+    display: none;
     
 }
