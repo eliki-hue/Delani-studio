@@ -3,6 +3,7 @@
     
 
 }
+
 #welcomeimg {
     background-image: url(assets/backgrounds/h_img.jpg);
     color:white;
@@ -133,7 +134,7 @@ margin: 50px;
 margin-left: 10px;
 text-align: center;
 background-color: black;
-background-size:cover
+background-size:cover;
 
 
 
