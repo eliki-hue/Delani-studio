@@ -18,7 +18,7 @@ $(document).ready(function(){
 
       elementNumbers.forEach(function(element) {
         $("#content"+ element).click(function() {
-            $(this).css('opacity','0.5') 
+            $(this).css('opacity','0.7') 
             
             $('#project' + element ).show()
             
@@ -38,7 +38,7 @@ $(document).ready(function(){
 
     
 
- document.getElementById("formMessage").addEventListener("submit", validateInputHere)
+ document.getElementById("formMessage").addEventListener("Submit", validateInputHere)
     function validateInputHere (){
             
         var username= document.getElementById('username').value;

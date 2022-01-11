@@ -24,43 +24,60 @@
     
     
 }
-#contact {
+#contactFoam {
     background-image: url(assets/backgrounds/c_image.jpg);
     text-align: center;
     background-size: cover;
+    justify-content: center;
     
 }
 #social {
     text-align: center;
 }
 
-
+#nameEmailSection {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    justify-content: center;
+    
+}
 #useremail {
     background-color:rgba(0, 0, 0, 0);
     border-style:solid;
     border-color: white;
     color: white;
-    display: inline;
+    margin-left: 10px;
     
+   
+   
 }
 #username{
     background-color:rgba(0, 0, 0, 0);
     border-style:groove;
     border-color: white;
-    color: white;
+    
+   
 }
-foam#contact::-webkit-input-placeholder{
+#messageBox {
+    background-color:rgba(0, 0, 0, 0);
+    border-style:solid;
+    border-color: white;
     color: white;
-}
-form#contact::-ms-input-placeholder{
-    color: white;
+    margin-left: 10px;
+    width: 500px;
+    height: 200px;
+
 }
 #submit {
-    float:right;
-    margin-top: 300px;
-    background-color: blue;
-    color: white;
+    background-color:rgba(0, 0, 0, 0);
+    margin-top: 20px;
+    color: blue;
+    font-weight: bolder;
+   
 }
+
+
 
 .whatWeDo{
     display: flex;
@@ -111,16 +128,6 @@ form#contact::-ms-input-placeholder{
 }
 
 
-#mce-MMERGE6 {
-    background-color:rgba(0, 0, 0, 0);
-    border-style:solid;
-    border-color: white;
-    color: white;
-    margin-left: 10px;
-    width: 40px;
-    height: 200px;
-    text-align: start;
-}
 .hidden {
     text-align: center;
     display: none;
@@ -131,7 +138,7 @@ form#contact::-ms-input-placeholder{
 .content {
 display: flex;
 position: relative;
-width: 200px;
+width: 240px;
 height: 200px;
 margin: 50px;
 margin-left: 10px;
