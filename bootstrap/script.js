@@ -38,7 +38,7 @@ $(document).ready(function(){
 
     
 
- document.getElementById("formMessage").addEventListener("Submit", validateInputHere)
+    document.getElementById("formMessage").addEventListener("submit", validateInputHere)
     function validateInputHere (){
             
         var username= document.getElementById('username').value;
